@@ -1,0 +1,12 @@
+[package]
+name = "prod_two"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[dev-dependencies]
+prod_one.workspace = true
+fake.workspace = true
+rand.workspace = true
+test_utils.workspace = true

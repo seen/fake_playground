@@ -1,0 +1,13 @@
+[workspace.package]
+edition = "2021"
+
+[workspace]
+resolver = "2"
+members = ["prod_one", "prod_two", "test_utils"]
+
+[workspace.dependencies]
+prod_one = { path = "prod_one" }
+prod_two = { path = "prod_two" }
+test_utils = { path = "test_utils" }
+fake = "2.9.2"
+rand = "0.8.5"
